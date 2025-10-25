@@ -1,0 +1,188 @@
+
+section{
+    width: 100%;
+    height:60%;
+}
+.container{
+border:2px solid green;
+height: 300px;
+}
+
+
+.row.ds {
+    height: 89px;
+    background: cadetblue;
+}
+.row.ss {
+    height: 59px;
+    background-color: aqua;
+}
+.row {
+    height: 125%; 
+    height: 500px;
+}
+.row{
+    
+    padding-left: 3px;
+}
+
+.col-8 li a {
+    color: #000;
+    text-decoration: none;
+  
+
+}
+
+
+.col-8 ul li{
+
+padding-left: 50px;
+
+}
+
+.col-8 ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    ;
+    align-items: center;
+}
+*/
+
+
+
+
+
+
+
+
+/*
+
+
+.container-fluid{
+}
+.container {
+ width: 70%;
+ height: 600px;
+ display: flex;
+ gap: 6px;
+
+}
+
+.container img {
+width: 15%;
+height: 100%;
+border: 2px solid rgb(0, 0, 0);
+transition: width .1s linear;
+object-fit: cover;
+}
+
+
+.container img:hover{
+    width: 25%;
+
+}
+
+*/
+
+.row{
+    height: 300px;
+}
+
+.containers{
+    background-color: #13e7a8;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.game-container{
+
+    margin: 10px 0px;
+
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,11vw);
+
+}
+.box{
+    color: rgb(0, 0, 0);
+    padding: 25px 32px;
+    cursor: pointer;
+    border: 2px solid rgb(51, 48, 48);
+    font-size: 39px;
+}
+.box:hover{
+    background-color: #84e713;
+    transition: .1s linear;
+}
+.col-md-5,.col-2 ,.col-md-3 ,.col-3   ,.col-5   ,.col-6    ,.col-7
+,.col-8  ,.col   ,.col-9{
+
+}.bt-1{
+    border-top: 0px;
+       
+}
+.info {
+    padding-left: 51px;
+}
+.bt-2{
+    border-top: 0px;
+}
+.br-3{
+    border-right: 0px;
+    border-top: 0px;
+}
+.br-1{
+border-left:0px ;
+border-top: 0px;
+}
+
+.br-2{
+    border-right:0px ;
+    }
+    
+.bl-3{
+border-right: 0px;
+}
+.bl-2{
+    border-left: 0px;
+    }
+
+    .bl-1{
+        border-left: 0px;
+    }
+
+
+    #reset{
+    }
+
+    .H-TIME{
+        border: 2px solid black;
+background-color: rgb(184, 151, 109);
+    }
+
+
+.format{
+position: relative;
+top: -55px;
+right: -105px;
+font-size: 30px;
+}
+.clock{
+    width: 100%;
+
+border: 2px solid red;
+    height: 100%;
+    
+    text-align: center;
+    margin-top: 30px;
+    color: aquamarine;
+    z-index: -1;
+}
+.mainq{
+    height: 300px;
+    background:linear-gradient(to right,rgb(35, 19, 131), red, blue,rgb(94, 255, 0));
+
+}
